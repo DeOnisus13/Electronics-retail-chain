@@ -1,0 +1,200 @@
+[
+  {
+    "model": "trade_net.retailchain",
+    "pk": 1,
+    "fields": {
+      "name": "Завод \"Кирпичи\"",
+      "supplier": null,
+      "level": 0,
+      "debt": "0.00",
+      "created_at": "2024-08-10T21:34:26Z"
+    }
+  },
+  {
+    "model": "trade_net.retailchain",
+    "pk": 2,
+    "fields": {
+      "name": "Завод \"Автомобили\"",
+      "supplier": null,
+      "level": 0,
+      "debt": "0.00",
+      "created_at": "2024-08-10T21:37:00Z"
+    }
+  },
+  {
+    "model": "trade_net.retailchain",
+    "pk": 3,
+    "fields": {
+      "name": "Сеть \"Продажа кирпичей\"",
+      "supplier": 1,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-08-10T21:37:20Z"
+    }
+  },
+  {
+    "model": "trade_net.retailchain",
+    "pk": 4,
+    "fields": {
+      "name": "Сеть \"Продажа автомобилей\"",
+      "supplier": 2,
+      "level": 1,
+      "debt": "0.00",
+      "created_at": "2024-08-10T21:38:06Z"
+    }
+  },
+  {
+    "model": "trade_net.retailchain",
+    "pk": 5,
+    "fields": {
+      "name": "ИП \"Рога и Копыта\"",
+      "supplier": 3,
+      "level": 2,
+      "debt": "135.00",
+      "created_at": "2024-08-10T21:38:20Z"
+    }
+  },
+  {
+    "model": "trade_net.retailchain",
+    "pk": 6,
+    "fields": {
+      "name": "ИП \"Кожемякин\"",
+      "supplier": 4,
+      "level": 2,
+      "debt": "1800.50",
+      "created_at": "2024-08-10T21:38:44Z"
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 1,
+    "fields": {
+      "email": "kirpich@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Новогоднего",
+      "building": "12",
+      "seller": 1
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 2,
+    "fields": {
+      "email": "auto@mail.ru",
+      "country": "Россия",
+      "city": "Тольятти",
+      "street": "Строителей",
+      "building": "15",
+      "seller": 2
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 3,
+    "fields": {
+      "email": "kirpich_sail@mail.com",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Танкистов",
+      "building": "34",
+      "seller": 3
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 4,
+    "fields": {
+      "email": "auto_sail@mail.com",
+      "country": "Беларусь",
+      "city": "Минск",
+      "street": "Грибоедова",
+      "building": "4",
+      "seller": 4
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 5,
+    "fields": {
+      "email": "rik@trade.net",
+      "country": "Казахстан",
+      "city": "Астана",
+      "street": "Неверова",
+      "building": "13",
+      "seller": 5
+    }
+  },
+  {
+    "model": "trade_net.contact",
+    "pk": 6,
+    "fields": {
+      "email": "kozmak@trade.net",
+      "country": "Россия",
+      "city": "Кемерово",
+      "street": "Васильева",
+      "building": "10",
+      "seller": 6
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 1,
+    "fields": {
+      "name": "Кирпич",
+      "model": "Красный",
+      "date_of_launch": "2024-08-11",
+      "seller": 1
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 2,
+    "fields": {
+      "name": "Автомобиль",
+      "model": "Lada Vesta",
+      "date_of_launch": "2024-08-11",
+      "seller": 2
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 3,
+    "fields": {
+      "name": "Кирпич 20х10х5",
+      "model": "Кирпич красный 20х10х5",
+      "date_of_launch": "2024-08-11",
+      "seller": 3
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 4,
+    "fields": {
+      "name": "Автомобиль Lada Vesta",
+      "model": "Lada Vesta",
+      "date_of_launch": "2024-08-11",
+      "seller": 4
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 5,
+    "fields": {
+      "name": "Кирпич крепкий",
+      "model": "Красный кирпич",
+      "date_of_launch": "2024-08-11",
+      "seller": 5
+    }
+  },
+  {
+    "model": "trade_net.product",
+    "pk": 6,
+    "fields": {
+      "name": "Автомобиль с пробегом",
+      "model": "Lada Vesta",
+      "date_of_launch": "2024-08-11",
+      "seller": 6
+    }
+  }
+]
